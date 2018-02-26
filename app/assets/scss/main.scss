@@ -1,0 +1,114 @@
+$color: #262828;
+
+body {
+  color: $color;
+}
+
+
+h2{
+  color: #EB0000;
+}
+.targets{
+  color: black;
+}
+
+.elementButton {
+
+  text-align: left;
+}
+
+
+.elementButton:hover {
+  background-color: #e7e7e7; /* Gray */
+  border: 1px solid;
+  border-color: #3d3d3d;
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+.VisitsList {
+  float: left;
+  overflow: scroll;
+  height: 89vh;
+  font-size: large;
+}
+
+.panel-title {
+  font-weight: bold;
+  font-size: large
+}
+
+.Detail {
+  float: left;
+  font-size: large;
+  overflow: scroll;
+  height: 89vh;
+}
+
+.cabName{
+  color: white;
+  font-size: 5vh;
+  float: left;
+  /*padding: 20.5px 15px;
+  line-height: 23px;
+  height: 64px;
+  margin-left: -240px;*/
+
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid red; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  top: 50vh;
+  left: 50vh;
+  display: inline-block;
+}
+
+.loaderWrapper {
+  text-align: center;
+  padding-top: 30vh;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.ui-datepicker {
+  size: large;
+}
+.favButton2 .glyphicon{
+  color: yellow;
+  border-color: green;
+
+}
+
+.react-datepicker {
+  font-size: 1.3rem !important;
+}
+
+.react-datepicker__current-month {
+  font-size: 1.5rem !important;
+}
+
+.react-datepicker__header {
+  padding-top: 6px !important;
+}
+
+.react-datepicker__navigation {
+  top: 13px !important;
+}
+
+.react-datepicker__day-name, .react-datepicker__day {
+  margin: 0.5rem !important;
+}
+
+
+

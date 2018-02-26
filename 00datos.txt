@@ -1,0 +1,7 @@
+Sofía Vidal Urriza y Elisa Mérida Coronel.
+g708
+
+MEJORAS REALIZADAS:
+-React-Bootstrap
+-Nuevas funcionalidades: date-picker para filtrar por fecha las visitas.
+-Peticiones PUT y DELETE para marcar y desmarcar una visita como favorita.
